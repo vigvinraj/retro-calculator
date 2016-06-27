@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "74faac398ed90e9fa2b317803e9b7aab"
+build_time: [520368748, 733509000]
+inputs:
+  "/Users/spot/Desktop/iOS Udemy Course/reto-calculator/reto-calculator/ViewController.swift": [520367502, 0]
+  "/Users/spot/Desktop/iOS Udemy Course/reto-calculator/reto-calculator/AppDelegate.swift": [520019784, 0]
