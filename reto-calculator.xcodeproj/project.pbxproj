@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FD9E9861D1C816D00E6D54B /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2FD9E9851D1C816D00E6D54B /* btn.wav */; settings = {ASSET_TAGS = (); }; };
 		2FDC30761D1C5A4800AE602E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC30751D1C5A4800AE602E /* AppDelegate.swift */; };
 		2FDC30781D1C5A4800AE602E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC30771D1C5A4800AE602E /* ViewController.swift */; };
 		2FDC307B1D1C5A4800AE602E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC30791D1C5A4800AE602E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		2FDC30831D1C5A4800AE602E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC30811D1C5A4800AE602E /* LaunchScreen.storyboard */; };
 		2FDC308E1D1C5A4800AE602E /* reto_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC308D1D1C5A4800AE602E /* reto_calculatorTests.swift */; };
 		2FDC30991D1C5A4800AE602E /* reto_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDC30981D1C5A4800AE602E /* reto_calculatorUITests.swift */; };
+		2FDC30A71D1C6BD000AE602E /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FDC30A61D1C6BD000AE602E /* Minecraft.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2FD9E9851D1C816D00E6D54B /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		2FDC30721D1C5A4800AE602E /* reto-calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reto-calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDC30751D1C5A4800AE602E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FDC30771D1C5A4800AE602E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		2FDC30941D1C5A4800AE602E /* reto-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "reto-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDC30981D1C5A4800AE602E /* reto_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reto_calculatorUITests.swift; sourceTree = "<group>"; };
 		2FDC309A1D1C5A4800AE602E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDC30A61D1C6BD000AE602E /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		2FDC30741D1C5A4800AE602E /* reto-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				2FD9E9851D1C816D00E6D54B /* btn.wav */,
+				2FDC30A61D1C6BD000AE602E /* Minecraft.ttf */,
 				2FDC30751D1C5A4800AE602E /* AppDelegate.swift */,
 				2FDC30771D1C5A4800AE602E /* ViewController.swift */,
 				2FDC30791D1C5A4800AE602E /* Main.storyboard */,
@@ -231,8 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD9E9861D1C816D00E6D54B /* btn.wav in Resources */,
 				2FDC30831D1C5A4800AE602E /* LaunchScreen.storyboard in Resources */,
 				2FDC30801D1C5A4800AE602E /* Assets.xcassets in Resources */,
+				2FDC30A71D1C6BD000AE602E /* Minecraft.ttf in Resources */,
 				2FDC307B1D1C5A4800AE602E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +495,7 @@
 				2FDC309F1D1C5A4800AE602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FDC30A01D1C5A4800AE602E /* Build configuration list for PBXNativeTarget "reto-calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				2FDC30A21D1C5A4800AE602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FDC30A31D1C5A4800AE602E /* Build configuration list for PBXNativeTarget "reto-calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +513,7 @@
 				2FDC30A51D1C5A4800AE602E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
